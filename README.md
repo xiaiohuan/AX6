@@ -33,7 +33,7 @@
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone https://github.com/coolsnowwolf/lede
+   git clone https://github.com/xiaiohuan/AX6（下载完成后将文件夹重命名为lede）
    cd lede
    ./scripts/feeds update -a
    ./scripts/feeds install -a
@@ -45,7 +45,7 @@
 
    ```bash
    make download -j8
-   make V=s -j1
+   make V=s -j6
    ```
 
 本套代码保证肯定可以编译成功。里面包括了 R22 所有源代码，包括 IPK 的。
